@@ -47,9 +47,9 @@ if __name__ == '__main__':
         master = _line.split('\t')[1]
         slave  = _line.split('\t')[2].rstrip('\n')
        # create_group(gid,codis_dashboard_addr)
-       # add_pika_group(gid,codis_dashboard_addr,master,slave)
+        add_pika_group(gid,codis_dashboard_addr,master,slave)
         # do_command(slave,"slaveof "+master+":9221")
         # add_tcmalloc(master,slave)
         # do_command(master,command)
-        do_command(slave,command)
+        #do_command(slave,command)
     f.close()
