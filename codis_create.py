@@ -35,7 +35,7 @@ def do_command(ip,command):
 
 
 if __name__ == '__main__':
-    f = open('/Users/zhoubo/python_work/offline_codis.list')
+    f = open('xxxx/offline_codis.list')
     codis_dashboard_addr="10.100.50.178:18080"
     #command="config get \*"
     #command="config set compact-cron 01-02/20"
